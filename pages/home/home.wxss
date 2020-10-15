@@ -2,3 +2,10 @@
 #home {
   padding: 10px;
 }
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+.user-name {
+  margin-right: 8px;
+}

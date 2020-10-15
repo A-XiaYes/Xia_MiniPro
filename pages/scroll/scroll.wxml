@@ -1,0 +1,21 @@
+<!--pages/scroll/scroll.wxml-->
+<view id="scroll">
+  <!-- 横向滚动 -->
+  <scroll-view class="emoji-container" scroll-x enhanced show-scrollbar="{{false}}">
+    <text
+      wx:for="{{emoji}}"
+      wx:for-item="item"
+      wx:key="i"
+      class="emoji-item"
+    >{{item}}</text>
+  </scroll-view>
+
+  <!-- 纵向滚动 -->
+  <scroll-view class="demo-container" scroll-y bindscroll="handleScroll" enhanced show-scrollbar="{{false}}">
+    <view 
+      wx:for="{{10}}"
+      wx:key="index"
+      class="demo-item"
+    >{{item}}</view>
+  </scroll-view>
+</view>
