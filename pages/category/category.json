@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "head": "/components/head/head",
+    "tab-control": "/components/TabControl/tab-control",
+    "my-slot": "/components/my-slot/my-slot"
+  }
 }

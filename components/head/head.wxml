@@ -1,2 +1,6 @@
 <!--components/head/head.wxml-->
 <text>{{title}}</text>
+
+<button size="mini" bindtap="increment">+1</button>
+
+<view>head当前计数：{{counter}}</view>
